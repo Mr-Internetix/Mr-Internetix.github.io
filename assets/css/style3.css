@@ -558,3 +558,17 @@ h2 #kamlesh:hover {
 
 
 /* maalik ke friends end  */
+
+div .contact-item input {
+    padding: 8px 43px;
+    border-radius: 38px;
+    color: black;
+    font-size: 23px;
+    border: 2px solid black;
+    transition: all 0.7s ease;
+}
+
+div .contact-item input:hover {
+    background-color: rgb(255, 51, 51);
+    border: 2px solid rgb(0, 0, 0);
+}
