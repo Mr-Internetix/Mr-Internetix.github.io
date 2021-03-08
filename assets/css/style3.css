@@ -365,6 +365,30 @@ div .brand h1 span {
 /* End Keyframes */
 
 
+/* medai query for laptop */
+
+
+/* @media only screen and (min-width: 1200px) {
+    .glow {
+        color: rgb(4, 243, 252);
+        text-decoration: none;
+        text-align: center;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1s ease-in-out infinite alternate;
+        animation-duration: 3s;
+    }
+    @-webkit-keyframes glow {
+        from {
+            text-shadow: 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #7ecbf8f8, 0 0 20px #7d9dcc, 0 0 20px #718ad1, 0 0 20px #6a79cc, 0 0 20px #5febf5;
+        }
+        to {
+            text-shadow: 0 0 10px #fff, 0 0 20px #ff4dd8, 0 0 15px #ff4da6, 0 0 18px #ff4da6, 0 0 20px #ff4dd8, 0 0 18px #ff4de7, 0 0 20px #ff4dc4;
+        }
+    }
+} */
+
+
 /* Media Query For Tablet */
 
 @media only screen and (min-width: 768px) {
@@ -472,27 +496,6 @@ div .home_text {
     color: #fff;
     transition: all 0.7s;
 }
-
-
-/* .glow {
-    color: rgb(4, 243, 252);
-    text-decoration: none;
-    text-align: center;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
-    animation-duration: 3s;
-    animation-delay: 10s;
-}
-
-@-webkit-keyframes glow {
-    from {
-        text-shadow: 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #7ecbf8f8, 0 0 20px #7d9dcc, 0 0 20px #718ad1, 0 0 20px #6a79cc, 0 0 20px #5febf5;
-    }
-    to {
-        text-shadow: 0 0 10px #fff, 0 0 20px #ff4dd8, 0 0 15px #ff4da6, 0 0 18px #ff4da6, 0 0 20px #ff4dd8, 0 0 18px #ff4de7, 0 0 20px #ff4dc4;
-    }
-} */
 
 h2 #kamlesh {
     color: rgb(16, 250, 238);
