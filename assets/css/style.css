@@ -15,7 +15,7 @@ html {
 /* NAVBAR SECTION STARTS HERE */
 
 #navbar {
-  position: sticky;
+  position: fixed;
   width: 100%;
   height: 67px;
   /* border: 4px solid cyan; */
