@@ -183,7 +183,7 @@ div ul li a:hover {
   margin: auto;
   align-items: center;
   justify-content: center;
-  border: 5px solid #fc005e;
+  border: 8px solid #fc005e;
   background-color: rgb(108, 129, 192);
 }
 
@@ -269,12 +269,18 @@ div .title{
   border: 2px solid #d9d9d9;
   border-radius: 10px;
   padding: 33px;
+  
 }
 
 .card .header {
   display: flex;
   align-items: center;
 }
+ div .img img{
+  width: 70px;
+  height: 67px;
+  margin-top: 3px;
+ }
 
 .card .header .img {
   height: 70px;
@@ -283,7 +289,18 @@ div .title{
   border-radius: 50%;
   position: relative;
   overflow: hidden;
+  background-image: linear-gradient(
+    to right,
+    #d9d9d9 0%,
+    rgba(0, 0, 0, 0.05) 20%,
+    #d9d9d9 40%,
+    #d9d9d9 100%
+  );
+  background-size: cover;
+
+  animation: flow 7s linear infinite;
 }
+
 
 .header .details {
   margin-left: 20px;
@@ -302,6 +319,14 @@ div .title{
 .details .name {
   width: 100px;
   height: 15px;
+  background-image: linear-gradient(
+    to right,
+    #d9d9d9 0%,
+    rgba(0, 0, 0, 0.05) 20%,
+    #d9d9d9 40%,
+    #d9d9d9 100%
+  );
+  animation: flow 6s linear infinite;
 }
 .details .about {
   width: 100px;
@@ -351,7 +376,7 @@ div .title{
 .btns .btn-2 {
   margin-left: 8px;
 }
-.card .header .img::before,
+/* .card .header .img::before,
 .details span::before,
 .content .line::before,
 .btns .btn::before {
@@ -369,7 +394,8 @@ div .title{
   background-size: 450px 400px;
   background-repeat: no repeat;
   animation: flow 1s linear infinite;
-}
+} */
+ 
 .header .img::before {
   background-size: 650px 600px;
 }

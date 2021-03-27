@@ -13,3 +13,9 @@ menuBtn.addEventListener('click',()=>{
 });
 
 
+// skeleton loader script //
+let img = document.querySelector('.img');
+img.innerHTML ="<img src ='./assets/images/logo.png'/>"
+img.style.animation="none";
+
+
