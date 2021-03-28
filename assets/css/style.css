@@ -184,7 +184,7 @@ div ul li a:hover {
   align-items: center;
   justify-content: center;
   border: 8px solid #fc005e;
-  background-color: rgb(108, 129, 192);
+  background-color: rgb(25,39,52);
 }
 
 #nav-wrapper {
@@ -259,10 +259,12 @@ div .title{
   top: 20%;
   left: -69px;
   margin: 0px auto;
+
   /* background:#414247; */
 }
 
 .card {
+    font-family: "Nunito Sans", sans-serif;
   max-width: 444px;
   width: 100%;
   height: 285px;
@@ -285,20 +287,10 @@ div .title{
 .card .header .img {
   height: 70px;
   width: 70px;
-  background: #d9d9d9;
+  background: #948f8f;
   border-radius: 50%;
   position: relative;
   overflow: hidden;
-  background-image: linear-gradient(
-    to right,
-    #d9d9d9 0%,
-    rgba(0, 0, 0, 0.05) 20%,
-    #d9d9d9 40%,
-    #d9d9d9 100%
-  );
-  background-size: cover;
-
-  animation: flow 7s linear infinite;
 }
 
 
@@ -317,20 +309,13 @@ div .title{
 }
 
 .details .name {
-  width: 100px;
-  height: 15px;
-  background-image: linear-gradient(
-    to right,
-    #d9d9d9 0%,
-    rgba(0, 0, 0, 0.05) 20%,
-    #d9d9d9 40%,
-    #d9d9d9 100%
-  );
-  animation: flow 6s linear infinite;
+  width: 83px;
+  height: 21px;
+
 }
 .details .about {
-  width: 100px;
-  height: 15px;
+  width: 249px;
+  height: 21px;
   margin-top: 10px;
 }
 
@@ -376,25 +361,57 @@ div .title{
 .btns .btn-2 {
   margin-left: 8px;
 }
-/* .card .header .img::before,
-.details span::before,
-.content .line::before,
-.btns .btn::before {
-  content: "";
+
+.card-button{
+  width: inherit;
+  height: inherit;
+  border-radius: 107px;
+  list-style: none;
+  outline: none;
+  background-image: linear-gradient(to bottom, #8241f9, #4e277b);
+    border-color:#6834BA;
+    color: #fff;
+    font-weight: 600;
+    line-height: 20px;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-repeat: repeat-x;
+    background-position: -1px -1px;
+    background-size: 110% 110%;
+    border: 1px solid rgba(27,31,35,0.2);
+    appearance: none;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+
+
+.loading{
+  background: #f7f5f5;
+  /* min-height: 30px; */
+  position: relative;
+  overflow:hidden;
+}
+
+.loading::before{
+  content:'';
   position: absolute;
-  height: 100%;
+  display: block;
   width: 100%;
-  background-image: linear-gradient(
-    to right,
-    #d9d9d9 0%,
-    rgba(0, 0, 0, 0.05) 20%,
-    #d9d9d9 40%,
-    #d9d9d9 100%
-  );
-  background-size: 450px 400px;
-  background-repeat: no repeat;
-  animation: flow 1s linear infinite;
-} */
+  height: 100%;
+  background: linear-gradient(to right,transparent,#e3e3e3,transparent);
+  transform: translateX(-100%);
+  animation: loading 1s infinite;
+
+}
+
+@keyframes loading {
+  100%{
+    transform: translateX(100%);
+  }
+}
  
 .header .img::before {
   background-size: 650px 600px;
@@ -406,11 +423,4 @@ div .title{
   animation-delay: 0.2s;
 }
 
-@keyframes flow {
-  0% {
-    background-position: -450px 0;
-  }
-  100% {
-    background-position: 450px 0;
-  }
-}
+
