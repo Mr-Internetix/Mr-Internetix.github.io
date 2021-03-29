@@ -264,7 +264,9 @@ div .title{
 }
 
 .card {
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Raleway", sans-serif;
+    color: white;
+    font-weight: 500;
   max-width: 444px;
   width: 100%;
   height: 285px;
@@ -325,9 +327,10 @@ div .title{
 
 .content .line {
   background: #d9d9d9;
-  height: 13px;
+  height: 20px;
   border-radius: 10px;
-  margin: 10px 0;
+  margin: 5px 0;
+  padding-left: 6px;
   position: relative;
   overflow: hidden;
 }
@@ -384,6 +387,32 @@ div .title{
     appearance: none;
     text-decoration: none;
     overflow: hidden;
+}
+
+.socials-section{
+  display: flex;
+  width: 283px;
+  align-items: center;
+  justify-content: center;
+  height: 63px;
+  position: absolute;
+  top: 56%;
+  left: 40%;
+  /* background-color: aliceblue; */
+}
+
+.socials{
+  display: flex;
+  /* background: tomato; */
+  height: 40px;
+  width: 40px;
+  padding: 4px;
+}
+
+.socials:hover{
+  background: #00fc9b;
+  border-radius: 10%;
+  border: 5px solid cyan;
 }
 
 
