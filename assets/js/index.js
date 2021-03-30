@@ -52,6 +52,7 @@ function getData() {
   btn1.innerHTML = "<a class='card-button' href='https://github.com/Mr-Internetix'>checkout github </a>";
   btn1.classList.remove("loading");
   btn1.style.background = "none";
+  
   // btn1.classList.add("card-button");
 
   let btn2 = document.querySelector(".btn-2");
