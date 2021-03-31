@@ -137,39 +137,6 @@ div ul li a:hover {
   transform: translateX(50px);
 }
 
-/* media queries for navbar  */
-
-@media (max-width: 960px) {
-  div .nav-items {
-    padding-left: 52px;
-  }
-
-  div ul li a {
-    padding: 11px;
-  }
-}
-
-@media (max-width: 760px) {
-  div ul {
-    display: none;
-  }
-  .menu-btn {
-    display: flex;
-    position: absolute;
-    width: 64px;
-    top: 5px;
-    right: 14px;
-    height: 55px;
-  }
-
-  #text p {
-    display: block;
-  }
-
-  #logo img {
-    display: none;
-  }
-}
 
 /* HOME SECTION CSS */
 
@@ -472,4 +439,90 @@ fill:#FC005E;
   padding: 30px;
   border: 4px solid violet;
   color: white;
+}
+
+
+/* media queries  */
+
+
+@media (max-width: 960px) {
+  /* media queries for navbar  */
+  div .nav-items {
+    padding-left: 52px;
+  }
+
+  div ul li a {
+    padding: 11px;
+  }
+}
+
+@media (max-width: 760px) {
+  /* media queries for navbar  */
+
+  div ul {
+    display: none;
+  }
+  .menu-btn {
+    display: flex;
+    position: absolute;
+    width: 64px;
+    top: 5px;
+    right: 14px;
+    height: 55px;
+  }
+
+  #text p {
+    display: block;
+  }
+
+  #logo img {
+    display: none;
+  }
+
+  /* media queries for home section  */
+
+
+  .home{
+    width:110%;
+    left:1%;
+    height: 72vh;
+  }
+
+  .intro-card{
+    flex-direction: column;
+    width: 87%;
+    top: 11%;
+    left: 23px;
+  }
+  
+  .card{
+    height: 220px;
+    padding: 19px 30px 30px 55px;
+    width: 109%;
+  }
+
+  .card .btns{
+    display: none;
+  }
+
+  div .title{
+    left: 5px;
+    top: -39px;
+  }
+
+  .title h1 span {
+    font-size: 49px;
+  }
+
+  .title p {
+    position: absolute;
+    left: 42px;
+    font-size: 16px;
+  }
+  .socials-section{
+    top: 83%;
+    left: 13%;
+  }
+
+
 }
