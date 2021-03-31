@@ -539,3 +539,26 @@ fill:#FC005E;
     left: 17%;
   }
 }
+
+/* // media queries for iphone 5 / se */
+@media (max-width: 320px){
+.home {
+    width: 110%;
+    left: 0%;
+    height: 80vh;
+}
+.socials-section {
+  top: 79%;
+  left: 8%;
+}
+.title h1 span {
+  font-size: 45px;
+}
+.title p{
+  top: 112px;
+}
+div .title {
+  left: -2px;
+  top: -39px;
+}
+}
