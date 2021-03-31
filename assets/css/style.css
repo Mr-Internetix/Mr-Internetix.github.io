@@ -457,7 +457,7 @@ fill:#FC005E;
   }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 730px) {
   /* media queries for navbar  */
 
   div ul {
@@ -526,4 +526,16 @@ fill:#FC005E;
   }
 
 
+}
+
+/* // media queries for more than 730px */
+@media only screen and (min-width:411px){
+  .home{
+    height: 66vh;
+  }
+  
+  .socials-section{
+    top: 78%;
+    left: 17%;
+  }
 }
