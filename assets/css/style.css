@@ -455,6 +455,10 @@ fill:#FC005E;
   div ul li a {
     padding: 11px;
   }
+  .socials-section{
+    top: 78%;
+    left: 17%;
+  }
 }
 
 @media (max-width: 730px) {
@@ -534,10 +538,7 @@ fill:#FC005E;
     height: 66vh;
   }
   
-  .socials-section{
-    top: 78%;
-    left: 17%;
-  }
+  
 }
 
 /* // media queries for iphone 5 / se */
