@@ -544,7 +544,7 @@ fill:#FC005E;
 }
 
 /* // media queries for iphone 5 / se */
-@media (min-width: 320px){
+@media (max-width: 320px){
 .home {
     width: 110%;
     left: 0%;
