@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&family=Nunito+Sans&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 /* CSS RESETS  */
 
 * {
@@ -234,7 +236,7 @@ div .title{
 }
 
 .card {
-  font-family: 'Baloo Tamma 2', cursive;
+  font-family: 'Roboto', sans-serif;
     color: white;
     font-weight: 500;
   max-width: 444px;

@@ -18,9 +18,14 @@ setTimeout(() => {
 
 function getData() {
   let img = document.querySelector(".img");
-  img.innerHTML = "<img src ='./assets/images/logo.png'/>";
+  img.innerHTML = "<img id='logo'src ='./assets/images/logo.png'/>";
   img.classList.remove("loading");
   img.style.background = "none";
+  img.style.overflow ="visible";
+
+  let logo = document.getElementById("logo");
+  console.log(logo);
+  logo.style.borderRadius="50%";
 
   let name = document.querySelector(".name");
   name.innerHTML = "  Ajit Yadav";
