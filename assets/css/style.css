@@ -544,11 +544,11 @@ fill:#FC005E;
 }
 
 /* // media queries for iphone 5 / se */
-@media (max-width: 320px){
+@media (min-width: 320px){
 .home {
     width: 110%;
     left: 0%;
-    height: 80vh;
+    height: 70vh;
 }
 .socials-section {
   top: 79%;
@@ -563,5 +563,10 @@ fill:#FC005E;
 div .title {
   left: -2px;
   top: -39px;
+}
+
+.card .header .img {
+  left: 10px;
+  position:absolute
 }
 }
