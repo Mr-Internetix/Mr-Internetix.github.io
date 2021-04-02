@@ -24,7 +24,7 @@ function getData() {
   img.style.overflow ="visible";
 
   let logo = document.getElementById("logo");
-  console.log(logo);
+  // console.log(logo);
   logo.style.borderRadius="50%";
 
   let name = document.querySelector(".name");
@@ -60,10 +60,10 @@ function getData() {
   
   // btn1.classList.add("card-button");
 
-  let btn2 = document.querySelector(".btn-2");
-  btn2.innerHTML = "<a class='card-button' href='https://github.com/Mr-Internetix'>checkout github </a>";
-  btn2.classList.remove("loading");
-  btn2.style.background = "none";
+  // let btn2 = document.querySelector(".btn-2");
+  // btn2.innerHTML = "<a class='card-button' href='https://github.com/Mr-Internetix'>checkout github </a>";
+  // btn2.classList.remove("loading");
+  // btn2.style.background = "none";
 
 }
 

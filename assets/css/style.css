@@ -527,20 +527,21 @@ fill:#FC005E;
     font-size: 16px;
   }
   .socials-section{
-    top: 83%;
-    left: 13%;
+    top: 76%;
+    
   }
-
+.card .header{
+  position: relative;
+  left: -24px;
+}
 
 }
 
 /* // media queries for more than 730px */
 @media only screen and (min-width:411px){
   .home{
-    height: 66vh;
+    height: 74vh;
   }
-  
-  
 }
 
 /* // media queries for iphone 5 / se */
