@@ -371,8 +371,7 @@ div .title{
   justify-content: center;
   height: 70px;
   position: absolute;
-  top: 50%;
-  left:58%;
+  
   /* background-color: aliceblue; */
 }
 
@@ -448,7 +447,7 @@ fill:#FC005E;
 /* media queries  */
 
 
-@media (max-width: 960px) {
+@media (min-width: 960px) {
   /* media queries for navbar  */
   div .nav-items {
     padding-left: 52px;
@@ -457,10 +456,12 @@ fill:#FC005E;
   div ul li a {
     padding: 11px;
   }
+
   .socials-section{
-    top: 78%;
-    left: 17%;
+    top: 50%;
+  left:58%;
   }
+
 }
 
 @media (max-width: 730px) {
@@ -490,8 +491,8 @@ fill:#FC005E;
 
 
   .home{
-    width:110%;
-    left:1%;
+    width:100%;
+    left:0%;
     height: 72vh;
   }
 
@@ -526,9 +527,15 @@ fill:#FC005E;
     left: 42px;
     font-size: 16px;
   }
-  .socials-section{
-    top: 76%;
-    
+
+  .socials_container{
+    width: 100%;
+    position: absolute;
+    top: 364px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 63px;
   }
 .card .header{
   position: relative;
