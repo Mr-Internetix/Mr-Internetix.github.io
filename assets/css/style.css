@@ -507,7 +507,7 @@ fill:#FC005E;
   .card{
     height: 220px;
     padding: 19px 30px 30px 55px;
-    width: 109%;
+    width: 100%;
   }
 
   .card .btns{
