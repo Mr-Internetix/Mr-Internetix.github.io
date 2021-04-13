@@ -279,7 +279,7 @@ div .title{
   height: 15px;
   background: #d9d9d9;
   display: block;
-  border-radius: 10px;
+  border-radius: 3px;
   position: relative;
   overflow: hidden;
 }
@@ -303,7 +303,7 @@ div .title{
 .content .line {
   background: #d9d9d9;
   height: 20px;
-  border-radius: 10px;
+  border-radius: 3px;
   margin: 5px 0;
   padding-left: 6px;
   position: relative;
@@ -344,25 +344,29 @@ div .title{
   display: inline-block;
   width: inherit;
   height: inherit;
-  border-radius: 4px;
+  border-radius: 2px;
   list-style: none;
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
   outline: none;
-  background-image: linear-gradient(to bottom, #8241f9, #4e277b);
-    border-color:#6834BA;
     color: #fff;
-    font-weight: 600;
+    font-weight: 200;
     line-height: 20px;
     white-space: nowrap;
     vertical-align: middle;
     cursor: pointer;
+    padding: 10px 98px;
     user-select: none;
-    background-repeat: repeat-x;
-    background-position: -1px -1px;
+ 
     background-size: 110% 110%;
-    border: 1px solid rgba(27,31,35,0.2);
+    border: 2px solid #FC005E;
     appearance: none;
     text-decoration: none;
     overflow: hidden;
+}
+
+.card-button:hover{
+  background-image: linear-gradient(to bottom, #7549c7, #c433bc);
 }
 
 .socials-section{
@@ -508,6 +512,7 @@ fill:#FC005E;
     height: 220px;
     padding: 19px 30px 30px 55px;
     width: 100%;
+    /* border: none; */
   }
 
   .card .btns{
