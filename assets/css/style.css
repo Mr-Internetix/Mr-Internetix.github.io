@@ -366,7 +366,9 @@ div .title{
 }
 
 .card-button:hover{
-  background-image: linear-gradient(to bottom, #7549c7, #c433bc);
+  background-image: linear-gradient(to bottom, #FC005E,#FC005E);
+
+  border: 2.2px solid #000000;
 }
 
 .socials-section{
@@ -437,16 +439,44 @@ fill:#FC005E;
 }
 
 
-/* my skills section */
-.my-skills{
+/* my projects section */
+.my-projects{
+ display: flex;
+  max-height: 300px;
+  border: 5px solid red;
   position: absolute;
   top:90%;
+  width: 100%;
+  margin: 0 auto;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
   margin: 20px;
   padding: 30px;
-  border: 4px solid violet;
-  color: white;
   z-index: -1;
 }
+
+.project-wrapper{
+  display:  flex;
+  border: 4px solid violet;
+  overflow-x: auto;
+  width: 100%;
+}
+
+.project-wrapper::-webkit-scrollbar{
+  width: 0;
+}
+
+.project-wrapper .item{
+  width: 200px;
+  height: 120px;
+  line-height: 110px;
+  text-align: center;
+  background-color: lightgray ;
+  margin-right: 5px;
+}
+
+
 
 
 /* media queries  */
