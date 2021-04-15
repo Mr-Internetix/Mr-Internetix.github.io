@@ -561,37 +561,33 @@ div .img img {
     justify-content: center;
 }
 
-
-
 .project-card{
   display: flex;
   flex-direction: column ;
-  height: 420px;
-  width: 320px;
+  height: 385px;
+  width: 300px;
   border-radius: 8px;
   align-items: center;
-  background-color: #262F39;
+  background-color: #000000;
   transform: scale 1s ease-in-out;
   margin: 3rem 1rem 0 1rem;
   z-index: 999;
+  color: white;
 }
 
 .project-card:hover{
-  transform: scale(1.1);
-}
-
-
-
-
-.image-area{
-  margin-top: 1rem;
+  transform: scale(1.02);
 }
 
 
 .project-card img{
-  border-radius: 8px;
   height: 200px;
   width:300px;
+}
+
+.project-card img:hover {
+  filter: blur(1px);
+  
 }
 
 
@@ -622,8 +618,10 @@ div .img img {
 .btn-modal{
   background-color: transparent;
   border: none;
-  color:white;
+  color:rgb(212, 106, 106);
   font-weight: bold;
+  transform: scale(1.1);
+
 }
 
 .btn-modal:hover{
