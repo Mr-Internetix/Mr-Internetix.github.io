@@ -452,12 +452,9 @@ div .img img {
 .my-projects {
   display: flex;
   flex-direction: column;
-  max-height: auto;
   border: 5px solid red;
   position: absolute;
   top: 90%;
-  width: 94%;
-  margin: 0 auto;
   align-self: center;
   justify-content: center;
   align-items: center;
@@ -561,7 +558,7 @@ div .img img {
   .socials_container {
     width: 100%;
     position: absolute;
-    top: 364px;
+    top: 378px;
     display: flex;
     align-items: center;
     justify-content: center;
