@@ -455,6 +455,7 @@ div .img img {
   border: 5px solid red;
   position: absolute;
   top: 90%;
+
   align-self: center;
   justify-content: center;
   align-items: center;
@@ -469,6 +470,8 @@ div .img img {
   font-size: 1.7rem;
   font-family: "Nunito Sans", sans-serif;
 }
+
+
 
 
 /* media queries  */
