@@ -456,6 +456,7 @@ div .img img {
   border: 5px solid red;
   position: absolute;
   top: 90%;
+  width: 100%;
   margin: 0 auto;
   align-self: center;
   justify-content: center;
@@ -562,7 +563,7 @@ div .img img {
   .socials_container {
     width: 100%;
     position: absolute;
-    top: 378px;
+    top: 355px;
     display: flex;
     align-items: center;
     justify-content: center;
