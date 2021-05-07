@@ -11,43 +11,27 @@ menuBtn.addEventListener("click", () => {
   }
 });
 
-var fixedElem = document.getElementById('navbar');
+// smooth scroll
+var Scrollbar = window.Scrollbar;
+Scrollbar.use(OverscrollPlugin);
 
-var scrollbar = Scrollbar.init(
-  document.getElementById('my-scrollbar'),
-);
-scrollbar.updatePluginOptions('overscroll', {
-  effect: 'bounce',
-});
+// Initialise
+var ScrollbarOptions = {
+	damping: 0.04,
+	thumbMinSize: 5,
+	renderByPixel: true,
+	alwaysShowTracks: true,
+	continuousScrolling: true,
+	plugins: {
+		overscroll: {
+			effect: 'bounce',
+			damping: 0.15,
+			maxOverscroll: 80
+		}
+	},
+};
+Scrollbar.init(document.querySelector('#my-scrollbar'),ScrollbarOptions);
 
-// scrollbar.addListener(function(status) {
-//    var offset = status.offset;
-  
-//   fixed.style.top = offset.y + 'px';
-//   fixed.style.left = offset.x + 'px';
-// });
-
-// var Scrollbar = window.Scrollbar;
-// Scrollbar.init(document.querySelector('#my-scrollbar'));
-// Scrollbar.initAll();
-
-
-// skeleton loader script //
-setTimeout(() => {
-  getData();
-}, 3000);
-
-function getData() {
-  
-
-  // let btn1 = document.querySelector(".btn-1");
-  // btn1.innerHTML =
-    
-  // btn1.classList.remove("loading");
-  // btn1.style.background = "none";
-
-
-}
 //touch slider code 
 
 var swiper = new Swiper('.swiper-container', {
